@@ -1,0 +1,827 @@
+.header-section{
+    max-width: 728px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    margin-top: 40px;
+}
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 200px;
+
+}
+
+.box h1{
+    margin-top: 0;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+.box h2 {
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 22px;
+    color: grey;
+}
+
+.box {
+    max-width: 400px;
+}
+
+.box-image {
+    max-width: 300px;
+}
+
+.box-image img {
+    max-width: 100%;
+}
+
+.title {
+    font-size: 70px;
+    color: green;
+    margin-left: 20px;
+}
+
+.btn-header {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-header button {
+    border-radius: 50px;
+    padding: 7px 22px;
+    font-size: 11px;
+}
+
+.btn-a {
+    background-color: #14a800;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    padding: 0 20px;
+}
+
+.btn-a:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.btn-b {
+    background-color: white;
+    color: #14a800;
+    border: 1px solid #14a800;
+    cursor: pointer;
+}
+.btn-b:hover{
+    color: black;
+    border-color: black;
+}
+
+
+/* ------------------ */
+
+.trust {
+    margin-left: 20px;
+}
+
+.trusted {
+    font-size: 20px;
+    color: grey;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.img-group {
+    display: flex;
+    gap: 20px;
+}
+
+.img-group img {
+    width: 60px;
+}
+
+
+
+/* ----------------------- */
+
+.container-1 {
+    margin-top: 40px;
+}
+.container-1 p{
+    font-size: 11px;
+}
+
+.container-1 a{
+    font-size: 11px;
+    color: green;
+}
+.card-style {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card-style .card {
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.card .title-card {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.raiting {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    height: 50px;
+}
+
+.raiting p {
+    font-size: 14px;
+    color: grey;
+}
+
+.raiting-skills {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 1180px) {
+    .card-style {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card-style {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* ------------------------------------ */
+
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: rgb(170, 149, 135);
+    border-radius: 10px;
+    color: white;
+    /* position: relative; */
+    padding: 0;
+    margin-bottom: 40px;
+    height: 100%;
+    
+}
+
+.enterprise{
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+.enterprise h5{
+    font-size: 20px;
+}
+
+.enterprise h2{
+    font-size: 40px;
+    margin: 0;
+}
+.enterprise .fast{
+    font-size: 12px;
+}
+.enterprise .hr{
+    width: 90%;
+    border: 0.01rem solid white;
+    margin-top: 3rem;
+}
+
+.access{
+    padding-top: 10px;
+}
+
+.img-cont2{
+    border-radius: 0 10px 10px 0px;
+    height: 100%;
+    max-width: 50%;
+}
+.container-2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.btn-learn{
+    width: 140px;
+    border-radius: 50px;
+    border: none;
+    font-size: 12px;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+/* ---------------------- */
+
+.container-3{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px 0;
+}
+.container-3 img{
+    position: absolute;
+    z-index: -11;
+    border-radius: 10px 10px 10px 10px;
+    filter: brightness(80%);
+    max-width: 728px;
+}
+
+
+
+.clients{
+    margin-left: 25px;
+    color: white;
+    width: 100%;
+}
+
+.clients h5{
+    font-size: 20px;
+}
+.clients h2{
+    font-size: 60px;
+    width: 90%;
+    margin: 0;
+}
+
+.clients p {
+    width: 90%;
+    font-size: 20px;
+}
+
+.looking{
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    width: 90%;
+}
+
+.card-head{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 90%;
+    height: 120px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.card-head:hover{
+    color: green;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-head h3{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.card-head p{
+    font-size: 16px;
+    margin: 10px;
+}
+
+@media (max-width: 760px) {
+    .container-3{
+        height: 800px;
+        background-color: black;
+    }
+    .looking{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* ------------------------ */
+
+.container-4{
+    display: flex;
+    margin-top: 90px;
+    z-index: -5;
+    width: 100%;
+}
+
+.businesses{
+    width: 60%;
+    padding: 20px;
+    background-color: rgb(233, 229, 229);
+    border-radius: 10px;
+    display: flex;
+}
+.businesses-left{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+.businesses ul{
+    list-style-type: none;
+    width: 70%;
+}
+
+.businesses h1{
+    font-size: 40px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.bsn-list{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.bsn-list h3{
+    margin: 0;
+    font-size: 24px;
+}
+.bsn-desc{
+    font-size: 15px;
+}
+.award{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-flow: column;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.bsn-image img{
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    transform: translate(-50px, 0px);
+}
+.award{
+    background-color: green;
+    color: white;
+}
+.award-style{
+    display: flex;
+    flex-direction: column;
+}
+
+.award-card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 2rem;
+}
+
+.award h3{
+    margin: 0;
+    font-size: 32px;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+}
+.rate{
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* ---------------------------------- */
+
+.container-5{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.talent-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.talent-desc{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(67, 67, 245);
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.talent-desc h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+.talent-desc p{
+    font-size: 1.2rem;
+}
+
+.hr{
+    width: 100%;
+    border: 1px solid white;
+}
+
+.talent-group-cont{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 2rem;
+}
+
+.talent-group-cont p{
+    width: 100%;
+}
+
+.talent-desc button{
+    height: 40px;
+    width: 10rem;
+    border-radius: 50px;
+    border: none;
+    color: rgb(67, 67, 245);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.talent-desc button:hover{
+    background-color: #ccc;
+}
+
+/* -------------------------- */
+
+
+.container-6{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.title-card{
+    display: flex;
+    justify-content: center;
+}
+
+.card-3{
+    display: flex;
+    height: 460px;
+}
+
+.cardThird{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    width: 50%;
+}
+.card-img img{
+    width: 140%;
+    height: 100%;
+}
+
+.cardThird img{
+    width: 150px;
+}
+.podcst{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.podcst-1{
+    width: 150px;
+}
+.podcst-1 p{
+    font-size: 12px;
+}
+
+
+
+
+@media (max-width: 768px){
+    .header-section{
+        width: 90%;
+        overflow-x: hidden;
+        margin: auto;
+    }
+    section{
+        padding: 0 5px;
+    }
+    .container{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .container .box-image{
+        display: none;
+    }
+
+    .btn-a{
+        width: 120px;
+    }
+    .btn-b{
+        width: 150px;
+    }
+
+    .box{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box .title{
+        margin-left: 0;
+        font-size: 52px;
+        padding: 0 20px;
+    }
+    .box h2{
+        margin-left: 0;
+        font-size: 20px;
+        padding: 0 20px;
+    }
+
+    .trusted{
+        font-size: 4vw;
+    }
+    .img-group img{
+        width: 70px;
+    }
+
+    .card-style{
+        width: 100%;
+    }
+    .container-1{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-1 h1{
+        font-size: 36px;
+    }
+    .container-1 p,
+    .container-1 a{
+        font-size: 20px;
+    }
+    .container-1 .card-style{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .card .title-card{
+        font-size: 24px;
+    }
+    /* ----------------------- */
+
+    .container-2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+    }
+    .container-2 img{
+        display: none;
+    }
+    .enterprise{
+        height: 100%;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .enterprise h5{
+        font-size: 20px;
+    }
+    .enterprise h2{
+        font-size: 46px;
+    }
+
+    .enterprise p{
+        font-size: 20px !important;
+        max-width: 90%;
+    }
+    .enterprise .btn-learn{
+        font-size: 16px;
+    }
+    /* -------------------------- */
+
+    .container-3{
+        margin-left: 0;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-3 img{
+        display: none;
+        margin-left: 0;
+    }
+
+    .clients{
+        width: 310px;
+    }
+
+    .clients h2{
+        font-size: 46px;
+    }
+
+    .clients p{
+        font-size: 20px;
+        width: 90%;
+        margin-right: 0;
+    }
+    .looking{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .looking .card-head{
+        width: 90%;
+        margin-top: 10px;
+        margin-inline: auto;
+    }
+    .card-head p{
+        align-self: flex-end;
+    }
+    .card-head h3{
+        font-size: 25px;
+    }
+
+/* ---------------------------- */
+
+    .container-4{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 100%;
+        margin-right: 0;
+        gap: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .businesses{
+        width: 100%;
+        padding: 0 10px;
+        
+    }
+    .businesses h1{
+        padding-left: 0;
+        font-size: 2.5rem;
+    }
+    .businesses ul{
+        padding-left: 0;
+        width: 100%;
+    }
+    .bsn-list h3{
+        font-size: 6vw;
+    }
+    .bsn-desc{
+        padding-left: 40px;
+    }
+    .bsn-image img{
+        display: block;
+        height: 380px;
+        width: 180px;
+        position: absolute;
+        bottom: 10px;
+        right: -50px;
+    }
+
+    .award{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 0px 10px 10px;
+        align-items: flex-start;
+    }
+    .award h3{
+        font-size: 36px;
+        width: 50%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .award-style{
+        margin-left: 10px;
+        width: 50%;        
+    }
+    .award-style p{
+        font-size: 20px;
+    }
+    .award-card p{
+        font-size: 26px;
+    }
+/* ----------------------------- */
+    .container-5{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+    }
+    .talent-card{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .talent-card img{
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .talent-desc{
+        padding-left: 10px;
+        border-radius: 0px 0px 10px 10px;
+        height: 100%;
+    }
+    .talent-desc h1{
+        font-size: 2.5rem;
+    }
+    .talent-group-cont{
+        display: flex !important;
+        flex-wrap: wrap;
+        position: relative !important;
+        left: 0;
+    }
+    .talent-desc button{
+        margin-top: 20px;
+    }
+/* ----------------------------- */
+    .container-6{
+        width: 95%;
+        height: 100%;
+    }
+    .container-6 .title-card{
+        font-size: 36px;
+    }
+    .card-cont{
+        height: 100%;
+    }
+    .card-img img{
+        display: none;
+    }
+
+    .card-3{
+        height: 590px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardThird{
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .shop-category .slick-prev::before{
+        display: none;
+    }
+    .shop-category .slick-next::before{
+        display: none;
+    }
+    .podcst{
+        display: flex;
+        flex-direction: column;
+    }
+    /*--------------------  */
+    
+}
+
+/* ---------------- */
+

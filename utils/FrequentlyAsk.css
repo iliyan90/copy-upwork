@@ -1,0 +1,150 @@
+
+/* ------------------- */
+/* Frequently <Frequently> */
+/* ------------------- */
+
+.frequently-ask-question{
+    display: flex;
+    width: 728px;
+    margin: 40px auto;
+    background-color: #f0f0f0;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.frequntly-ask-title{
+    width: 300px;
+}
+
+.frequntly-ask-title h3{
+    margin: 0;
+    font-size: 28px;
+}
+
+.frequently-answer{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.answer-items{
+    border-bottom: 1px solid grey;
+    padding: 5px 0px;
+}
+
+.answer-items h4{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.answer-items p{
+    font-size: 12px;
+}
+
+.answer-items a{
+    font-size: 12px;
+    color: blue;
+    cursor: pointer;
+}
+
+.pargr-active{
+    height: auto;
+}
+.pargr-unactive{
+    height: 45px;
+    overflow: hidden;
+}
+.mobile-question{
+    display: none;
+}
+
+@media(max-width: 728px){
+    
+/* ------------------- */
+/* Frequently <Frequently> */
+/* ------------------- */
+
+.frequently-ask-question{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:  auto;
+    background-color: #f0f0f0;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.frequntly-ask-title{
+    width: 300px;
+}
+
+.frequntly-ask-title h3{
+    margin: 0;
+    font-size: 28px;
+}
+
+.frequently-answer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.answer-items{
+    border-bottom: 1px solid grey;
+    padding: 5px 0px;
+    width: 90%;
+    margin: auto;
+}
+
+.answer-items h4{
+    font-size: 24px;
+    margin-top: 5px;
+}
+.answer-items p{
+    font-size: 18px;
+}
+
+.answer-items a{
+    font-size: 22px;
+    color: blue;
+    cursor: pointer;
+    display: none;
+}
+
+.show-pargr{
+    display: none;
+}
+.pargr-active{
+    height: auto;
+}
+.pargr-unactive{
+    height: auto;
+    text-overflow: ellipsis;
+    line-clamp: 2;
+}
+.mobile-question{
+    display: inline;
+}
+.mobile-question a{
+    display: block;
+}
+.prg-active{
+    overflow: auto;
+    animation-name: drop;
+    transition: all 0.5s ease;
+}
+.prg-unactive{
+    max-height: 40px;
+    overflow: hidden;
+    
+}
+@keyframes drop {
+    from{
+        max-height: 40px;
+        
+    }
+    to{
+        max-height: auto;
+        
+    }
+}
+}

@@ -1,0 +1,576 @@
+.how-to-find-main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+/*-------------------*/
+/* Work the way <WorkTheWay> */
+/*-------------------*/
+
+.work-the-way-container{
+    width: 888px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.work-way-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.work-way-head h3{
+    font-size: 32px;
+    margin: 0;
+    color: #14a800;
+}
+
+.work-way-head p{
+    font-size: 12px;
+}
+
+.work-the-way-image{
+    width: 50%;
+}
+.work-the-way-image img{
+    width: 100%;
+    filter: brightness(120%);
+    border-radius: 8px;
+}
+
+.work-way-rating{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    border-top: 1px solid grey;
+}
+.work-way-rating span{
+    font-size: 11px;
+    align-self: flex-end;
+}
+
+.work-way-stars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work-way-stars h4{
+    margin: 0;
+}
+
+
+.stars-rate{
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+.stars-rate p{
+    font-size: 18px;
+}
+
+/* ---------------------- */
+/* How it Work <HowItWork> */
+/* ---------------------- */
+
+.how-it-work{
+    display: flex;
+    flex-direction: column;
+    width: 728px;
+    margin: 40px auto;
+    gap: 20px;
+    border-bottom: 1px solid grey;
+}
+.how-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.how-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.how-card-image{
+    width: 20%;
+    background-color: rgb(169, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.how-card-image img{
+    width: 100px;
+    height: auto;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.how-card-desc{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.how-card-desc h3{
+    margin: 0;
+    font-size: 16px;
+}
+
+.how-card-desc p{
+    font-size: 11px;
+    color: gray;
+}
+
+.how-card-desc a{
+    font-size: 10px;
+    color: #14a800;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.how-it-work .btn-hire{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.how-it-work-title{
+    border-bottom: 1px solid grey;
+}
+
+.how-it-work-title h3{
+    margin: 5px 0;
+}
+
+/* ------------------- */
+/* Explore ways to earn */
+/* <ExploreWays> */
+/* ------------------- */
+
+.explore-ways-to-earn{
+    display: flex;
+    flex-direction: column;
+    width: 728px;
+    margin: auto;
+}
+
+.explore-ways-title{
+    border-bottom: 1px solid grey;
+}
+
+.explore-ways-title h3{
+    font-size: 22px;
+
+}
+
+/* ------------------ */
+/* How payment work */
+/* <HowPaymentWork> */
+/* ------------------ */
+
+.payment-work{
+    display: flex;
+    justify-content: space-between;
+    width: 888px ;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.payment-work-image{
+    width: 400px;
+}
+.payment-work-image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.payment-work-desc{
+    width: 350px;
+}
+
+.payment-work-desc > div{
+    margin: 10px 0;
+}
+
+.payment-work-desc span{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.payment-work-desc p{
+    font-size: 11px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: grey;
+}
+
+.payment-work-desc ul{
+    padding-left: 18px;
+    margin: 0;
+}
+.payment-work-desc ul li{
+    font-size: 11px;
+    color: grey;
+}
+
+.payment-work-desc a{
+    font-size: 11px;
+    color: blue;
+    cursor: pointer;
+}
+
+/* ------------------ */
+/* Learn <Learn> */
+/* ------------------ */
+
+.learn-continer{
+    display: flex;
+    flex-direction: column;
+    max-width: 728px;
+    margin: 40px auto;
+}
+
+.learn-cards{
+    display: flex;
+    gap: 20px;
+}
+.learn-cards .card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.learn-cards .card-image{
+    max-width: 200px;
+    height: 120px;
+}
+
+.learn-cards .card-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.learn-cards .card-cont {
+    padding-left: 10px;
+}
+.learn-cards .card-cont h4{
+    margin: 5px 0px 10px ;
+}
+.how-card-desc-mb{
+    display: none;
+}
+.payment-work-mb{
+    display: none;
+}
+@media (max-width: 728px){
+    .how-to-find-main{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+    
+    /*-------------------*/
+    /* Work the way <WorkTheWay> */
+    /*-------------------*/
+    
+    .work-the-way-container{
+        width: 100%;
+        margin: 40px auto;
+        display: flex;
+    }
+    
+    .work-way-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    
+    .work-way-head h3{
+        font-size: 40px;
+        margin: 0;
+        color: #14a800;
+    }
+    
+    .work-way-head p{
+        font-size: 30px;
+    }
+
+    .work-way-head .btn-hire{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    
+    .work-the-way-image{
+        display: none;
+        width: 50%;
+    }
+    .work-the-way-image img{
+        width: 100%;
+        filter: brightness(120%);
+        border-radius: 8px;
+    }
+    
+    .work-way-rating{
+        display: flex;
+        flex-direction: column;
+        color: grey;
+        border-top: 1px solid grey;
+    }
+    .work-way-rating span{
+        font-size: 18px;
+        align-self: flex-start;
+    }
+    
+    .work-way-stars{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .work-way-stars h4{
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    
+    .stars-rate{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        font-size: 30px;
+    }
+    .stars-rate p{
+        font-size: 38px;
+    }
+    
+    /* ---------------------- */
+    /* How it Work <HowItWork> */
+    /* ---------------------- */
+    
+    .how-it-work{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 40px auto;
+        gap: 20px;
+        border-bottom: 1px solid grey;
+    }
+    .how-it-work-title h3{
+        font-size: 30px;
+    }
+    .how-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .how-card{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .how-card-image h3{
+        font-size: 30px;
+    }
+    .how-card-image{
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        border-radius: 8px;
+    }
+    
+    .how-card-image img{
+        width: 100px;
+        margin: auto;
+        border-radius: 8px;
+        margin-left: 0;
+        margin-right: 0;
+        background-color: rgb(62, 233, 233);
+    }
+    
+    .how-card-desc{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .how-card-desc h3{
+        display: none;
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    .how-card-desc p{
+        font-size: 18px;
+        color: gray;
+    }
+    
+    .how-card-desc a{
+        font-size: 18px;
+        color: #14a800;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .how-card-desc-mb{
+        display: block;
+    }
+    .how-it-work .btn-hire{
+        width: 120px;
+        margin-top: 10px;
+    }
+    
+    .how-it-work-title{
+        border-bottom: 1px solid grey;
+    }
+    
+    .how-it-work-title h3{
+        margin: 5px 0;
+    }
+    .how-it-work .btn-hire{
+        font-size: 18px;
+        width: 200px;
+    }
+    
+    /* ------------------- */
+    /* Explore ways to earn */
+    /* <ExploreWays> */
+    /* ------------------- */
+    
+    .explore-ways-to-earn{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .explore-ways-title{
+        border-bottom: 1px solid grey;
+    }
+    
+    .explore-ways-title h3{
+        font-size: 30px;
+    
+    }
+    
+    /* ------------------ */
+    /* How payment work */
+    /* <HowPaymentWork> */
+    /* ------------------ */
+    
+    .payment-work{
+        display: flex;
+        justify-content: space-between;
+        width: 100% ;
+        margin: 20px auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .payment-work-mb{
+        display: block;
+    }
+    .payment-work-desc-mb h3{
+        font-size: 30px;
+    }
+    .payment-work-desc h3{
+        display: none;
+    }
+    .payment-work-image{
+        width: 100%;
+    }
+    .payment-work-image img{
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .payment-work-desc{
+        width: 100%;
+    }
+    
+    .payment-work-desc > div{
+        margin: 10px 0;
+    }
+    
+    .payment-work-desc span{
+        font-size: 26px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    
+    .payment-work-desc p{
+        font-size: 18px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        color: grey;
+    }
+    
+    .payment-work-desc ul{
+        padding-left: 18px;
+        margin: 0;
+    }
+    .payment-work-desc ul li{
+        font-size: 18px;
+        color: grey;
+    }
+    
+    .payment-work-desc a{
+        font-size: 18px;
+        color: blue;
+        cursor: pointer;
+    }
+    
+    /* ------------------ */
+    /* Learn <Learn> */
+    /* ------------------ */
+    
+    .learn-continer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 40px auto;
+    }
+    .learn-continer h3{
+        font-size: 30px;
+    }
+    .learn-cards{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .learn-cards .card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    
+    .learn-cards .card-image{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .learn-cards .card-image img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .learn-cards .card-cont {
+        padding-left: 10px;
+    }
+    .learn-cards .card-cont h4{
+        font-size: 30px;
+        margin: 5px 0px 10px ;
+    }
+    .card-cont .btn-hire{
+        font-size: 18px;
+    }
+       
+}

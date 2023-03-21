@@ -1,0 +1,193 @@
+/* ------------------- */
+/* Browse Buy <BrowseBuy> */
+/* ------------------- */
+
+
+.browse-buy-container{
+    display: flex;
+    margin: 40px auto;
+    width: 728px;
+    justify-content: space-between;
+}
+
+.browse-buy-container p{
+    font-size: 11px;
+    color: grey;
+}
+
+.browse-buy-box{
+    width: 300px;
+}
+
+.browse-buy-box h3{
+    margin: 5px 0px;
+}
+
+.browse-buy-box h4{
+    margin: 5px 0px;
+    color: grey;
+    font-size: 14px;
+    width: 240px;
+}
+
+.browse-buy-cards{
+    display: flex;
+    height: 100%;
+    gap: 20px;
+}
+.browse-card{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.browse-card span{
+    font-size: 11px;
+}
+.browse-card img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.browse-user{
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50px;
+    top: 7px;
+    left: 7px;
+    gap: 5px;
+}
+
+.browse-user img{
+    width: 18px;
+}
+
+.green-dot{
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #14a800;
+    border: 1px solid white;
+    position: absolute;
+    left: 20px;
+    top: 14px;
+}
+.browse-buy-box-mb{
+    display: none;
+}
+/* ------------------ */
+/* Media 728px */
+/* ------------------ */
+
+@media (max-width: 728px){
+    /* ------------------- */
+/* Browse Buy <BrowseBuy> */
+/* ------------------- */
+
+
+.browse-buy-container{
+    display: flex;
+    flex-direction: column !important;
+    margin:  auto;
+    width: 100% !important;
+    align-items: center;
+}
+.browse-buy-box h3{
+    font-size: 30px;
+}
+
+.browse-buy-box h4{
+    font-size: 18px;
+}
+
+.browse-buy-box .btn-hire{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.browse-buy-container p{
+    font-size: 18px;
+    color: grey;
+}
+
+.browse-buy-box{
+    width: 100%;
+}
+.browse-buy-box p,
+.browse-buy-box button{
+    display: none;
+}
+.browse-buy-box-mb{
+    display: block;
+}
+.browse-buy-box-mb .btn-hire{
+    font-size: 18px;
+}
+.browse-buy-box h3{
+    margin: 5px 0px;
+    margin-top: 40px;
+}
+
+.browse-buy-box h4{
+    margin: 5px 0px;
+    color: grey;
+    font-size: 20px;
+    width: 240px;
+}
+
+.browse-buy-cards{
+    display: flex;
+    height: 100%;
+    gap: 5px;
+}
+.browse-card{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.browse-card span{
+    font-size: 14px;
+}
+.browse-card img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.browse-user{
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50px;
+    top: 7px;
+    left: 7px;
+    gap: 5px;
+}
+
+.browse-user img{
+    width: 18px;
+}
+
+.green-dot{
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #14a800;
+    border: 1px solid white;
+    position: absolute;
+    left: 20px;
+    top: 14px;
+}
+
+.explore-ways-to-earn .browse-buy-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+}

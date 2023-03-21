@@ -1,0 +1,861 @@
+/* How To Hire */
+
+.how-to-hire{
+    display: flex;
+    flex-direction: column;
+    width: (100% -15px, 888px);
+    margin-inline: auto;
+    align-items: center;
+}
+
+/* ------------------ */
+/* Find Freelancer 
+    <FindFreelancer>
+*/
+/* ------------------ */
+
+.find-freelancer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.find-freelancer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.find-freelancer-content{
+    width: 400px;
+}
+
+.find-freelancer-content h2{
+    margin-top: 0;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #14a800;
+}
+
+.find-freelancer-content p{
+    font-size: 12px;
+}
+.btn-hire{
+    padding: 7px 12px;
+    font-size: 11px;
+    border-radius: 50px;
+    border: none;
+    background-color: #14a800;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-hire:hover{
+    background-color: green;
+}
+
+.find-freelancer-link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.find-freelancer-link p{
+    font-size: 11px;
+}
+
+.find-freelancer-link a{
+    font-size: 11px;
+    color: blue;
+}
+
+.find-freelancer-image{
+    max-width: 400px;
+}
+.find-freelancer-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* -------------------- */
+/* Post and Hire */
+/* <PostHire> */
+/* -------------------- */
+
+.post-hire-container{
+    display: flex;
+    flex-direction: column;
+    width: 728px;
+    margin: auto;
+}
+
+.post-hire-title{
+    margin-bottom: 40px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.post-hire-title h3{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.post-hire-title p{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+    width: 400px;
+}
+
+.post-hire-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-hire-cont{
+    max-width: 250px;
+}
+
+.post-hire-cont h3,
+.post-hire-cont h4
+{
+    margin: 5px 0px;
+}
+
+.post-hire-cont h4{
+    font-size: 14px;
+    color: grey;
+}
+
+.post-hire-cont p{
+    font-size: 12px;
+    color: grey;
+}
+
+.post-hire-image{
+    width: 400px;
+}
+
+.post-hire-image img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+/* ------------------- */
+/* Fast Lane <FastLane> */
+/* ------------------- */
+
+.fast-lane{
+    display: flex;
+    align-items: center;
+    width: 728px;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+.fast-lane-cards{
+    display: flex;
+}
+.fast-card{
+    width: 200px;
+}
+
+.fast-card-visit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fast-card-visit h3{
+    font-size: 16px;
+    margin: 0;
+}
+.fast-card-visit span{
+    font-size: 11px;
+    margin: 0;
+}
+
+.fast-raiting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: grey;
+}
+
+.fast-card-visit img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.fast-lane-cont{
+    max-width: 300px;
+}
+
+.fast-lane-cont h3,
+.fast-lane-cont h4
+{
+    margin: 0;
+}
+
+.fast-lane-cont h4{
+    font-size: 14px ;
+    color: grey;
+}
+
+.fast-lane-cont p{
+    font-size: 11px;
+    color: grey;
+}
+
+/* ------------------- */
+/* Four Way <FourWay> */
+/* ------------------- */
+
+.four-way-container{
+    display: flex;
+    width: 728px;
+    margin: 40px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.four-way-box{
+    width: 300px;
+}
+
+.four-way-box p{
+    font-size: 11px;
+    color: grey;
+}
+
+.iframe-v iframe{
+    border-radius: 10px;
+}
+
+/* --------------------- */
+/* Approval <Approval> */
+/* --------------------- */
+
+.approval-container{
+    display: flex;
+    flex-direction: column;
+    width: 728px;
+    margin: 40px auto;
+}
+
+.approval-title h3{
+    font-size: 22px;
+    padding-bottom: 10px;
+    margin: 0;
+    border-bottom: 1px solid grey;
+}
+
+.approval-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.approval-desc{
+    width: 400px;
+}
+.approval-desc h4{
+    font-size: 14px;
+    color: grey;
+}
+
+.approval-list{
+    font-size: 11px;
+    color: grey;
+}
+
+.approval-list ul{
+    list-style: none;
+    padding: 0;
+}
+
+.approval-list ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.approval-list ul li p{
+    margin: 2px 0px;
+}
+
+.approval-list ul li::before{
+    content: '✓';
+    font-size: 15px;
+    font-weight: 900;
+    color: #14a800;
+}
+
+
+
+/* ------------------ */
+/* Safe with us <WSafeWithUs> */
+/* ------------------ */
+
+
+.safe-with-us{
+    display: flex;
+    align-items: center;
+    width: 888px;
+
+    margin: 40px auto;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.safe-with-us-image{
+    width: min((100% - 15px),400px);
+}
+
+.safe-with-us-image img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.safe-with-us-cont{
+    padding: 20px;
+    width: 400px;
+}
+
+.safe-with-us-card {
+    width: min((100% -15px), 300px);
+}
+
+.safe-with-us-card h3{
+    font-size: 22px;
+    margin: 5px 0px;
+}
+.safe-with-us-card h4{
+    margin: 0;
+    color: grey;
+}
+
+.safe-with-us-card p{
+    font-size: 12px;
+    color: grey;
+}
+.safe-with-us-card span{
+    color: black;
+}
+
+/* -------------------- */
+/* Ask Question <AskQuestion> */
+/* -------------------- */
+
+.ask-question{
+    display: flex;
+    width: 728px;
+    margin: 40px auto;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.ask-question-title{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.ask-question-list{
+    width: 50%;
+    padding-left: 40px;
+}
+
+.ask-question-list h4{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.ask-question-list p{
+    font-size: 12px;
+    color: grey;
+}
+
+.ask-question-list > div{
+    border-bottom: 1px solid grey;
+}
+.ask-question-list > div:nth-child(3){
+    border: none;
+}
+.post-hire-box-mb{
+    display: none;
+}
+.post-hire-cont-mb{
+    display: none;
+}
+.fast-lane-cont-mb{
+    display: none;
+}
+.four-way-box-mb{
+    display: none;
+}
+/* ---------------------- */
+/* Media 728px */
+/* ---------------------- */
+
+@media (max-width: 728px){
+ /* How To Hire */
+
+.how-to-hire{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-inline: auto;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+/* ------------------ */
+/* Find Freelancer 
+    <FindFreelancer>
+*/
+/* ------------------ */
+
+.find-freelancer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.find-freelancer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.find-freelancer-content{
+    width: 100%;
+}
+
+.find-freelancer-content h2{
+    margin-top: 0;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #14a800;
+}
+
+.find-freelancer-content p{
+    font-size: 18px;
+}
+.find-freelancer-content .btn-hire{
+    font-size: 16px;
+}
+.btn-hire{
+    padding: 7px 12px;
+    font-size: 11px;
+    border-radius: 50px;
+    border: none;
+    background-color: #14a800;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-hire:hover{
+    background-color: green;
+}
+
+.find-freelancer-link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.find-freelancer-link p{
+    font-size: 18px;
+}
+
+.find-freelancer-link a{
+    font-size: 18px;
+    color: blue;
+}
+
+.find-freelancer-image{
+    display: none;
+    max-width: 400px;
+}
+.find-freelancer-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* -------------------- */
+/* Post and Hire */
+/* <PostHire> */
+/* -------------------- */
+
+.post-hire-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.post-hire-title{
+    margin-bottom: 40px;
+    width: 100%;
+    border-bottom: none
+}
+
+.post-hire-title h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.post-hire-title p{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: auto;
+}
+
+.post-hire-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-hire-cont-mb{
+    display: block;
+}
+.post-hire-cont-mb h3{
+    font-size: 30px;
+    margin: 0;
+}
+.post-hire-cont-mb h4{
+    font-size: 20px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.post-hire-cont{
+    max-width: 90%;
+}
+
+.post-hire-cont h3{
+    font-size: 30px;
+}
+
+.post-hire-cont h3,
+.post-hire-cont h4
+{
+    display: none;
+    margin: 5px 0px;
+}
+
+.post-hire-cont h4{
+    font-size: 22px;
+    color: grey;
+}
+
+.post-hire-cont p{
+    font-size: 18px;
+    color: grey;
+}
+.post-hire-cont .btn-hire{
+    font-size: 18px;
+}
+
+.post-hire-image{
+    width: 90%;
+}
+
+.post-hire-image img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+/* ------------------- */
+/* Fast Lane <FastLane> */
+/* ------------------- */
+
+.fast-lane{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+.fast-lane-cards{
+    display: flex;
+}
+.fast-card{
+    width: 200px;
+}
+
+.fast-card-visit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fast-card-visit h3{
+    font-size: 20px;
+    margin: 0;
+}
+.fast-card-visit span{
+    font-size: 18px;
+    margin: 0;
+}
+
+.fast-raiting{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: grey;
+}
+
+.fast-card-visit img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.fast-lane-cont-mb{
+    display: block;
+}
+.fast-lane-cont{
+    max-width: 100%;
+}
+.fast-lane-cont h3{
+    font-size: 30px;
+}
+.fast-lane-cont h3,
+.fast-lane-cont h4
+{
+    display: none;
+    margin: 0;
+}
+.fast-lane-cont-mb h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.fast-lane-cont-mb h4{
+    font-size: 20px;
+    color: grey;
+    margin-top: 0;
+}
+
+.fast-lane-cont h4{
+    font-size: 20px ;
+    color: grey;
+}
+
+.fast-lane-cont p{
+    font-size: 18px;
+    color: grey;
+}
+.fast-lane-cont .btn-hire{
+    font-size: 18px;
+}
+/* ------------------- */
+/* Four Way <FourWay> */
+/* ------------------- */
+
+.four-way-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 40px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.four-way-box{
+    width: 300px;
+}
+.four-way-box h3{
+    font-size: 30px;
+}
+
+.four-way-box p{
+    display: none;
+    font-size: 11px;
+    color: grey;
+}
+.four-way-box-mb{
+    display: block;
+    width: 90%;
+    font-size: 18px;
+    color: grey;
+}
+.iframe-v iframe{
+    border-radius: 10px;
+}
+
+/* --------------------- */
+/* Approval <Approval> */
+/* --------------------- */
+
+.approval-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.approval-title h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin: 0;
+    border-bottom: none
+}
+
+.approval-cont{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.approval-desc{
+    width: 100%;
+}
+.approval-desc h4{
+    font-size: 18px;
+    color: grey;
+}
+
+.approval-list{
+    font-size: 18px;
+    color: grey;
+}
+
+.approval-list ul{
+    list-style: none;
+    padding: 0;
+}
+
+.approval-list ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 0px;
+}
+
+.approval-list ul li p{
+    margin: 2px 0px;
+}
+
+.approval-list ul li::before{
+    content: '✓';
+    font-size: 15px;
+    font-weight: 900;
+    color: #14a800;
+}
+
+
+
+/* ------------------ */
+/* Safe with us <WSafeWithUs> */
+/* ------------------ */
+
+
+.safe-with-us{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 90%;
+    margin-inline: auto;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.safe-with-us-image{
+    width: 100%;
+}
+
+.safe-with-us-image img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.safe-with-us-cont{
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+}
+
+.safe-with-us-card {
+    width: min((100% -15px), 300px);
+}
+
+.safe-with-us-card h3{
+    font-size: 30px;
+    margin: 5px 0px;
+}
+.safe-with-us-card h4{
+    font-size: 20px;
+    margin: 0;
+    color: grey;
+}
+
+.safe-with-us-card p{
+    font-size: 18px;
+    color: grey;
+}
+.safe-with-us-card span{
+    color: black;
+}
+
+/* -------------------- */
+/* Ask Question <AskQuestion> */
+/* -------------------- */
+
+.ask-question{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 40px auto;
+    gap: 0px;
+    justify-content: space-between;
+}
+
+.ask-question-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.ask-question-list{
+    width: 100%;    
+    padding: 0;
+}
+
+.ask-question-list h4{
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.ask-question-list p{
+    font-size: 18px;
+    color: grey;
+}
+
+.ask-question-list > div{
+    border-bottom: 1px solid grey;
+}
+.ask-question-list > div:nth-child(3){
+    border: none;
+}
+   
+}

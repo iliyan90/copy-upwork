@@ -1,0 +1,419 @@
+.promote-container{
+    max-width: 992px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+/* ------------------- */
+/* Promote Yourself<PromoteYourSelf> */
+/* ------------------- */
+
+.promote-yourself{
+    display: flex;
+    background-color: #14a800;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: space-between;
+    gap: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+.promote-yourself-content h2{
+    margin-top: 0;
+    font-size: 34px;
+    color: white;
+}
+
+.promote-yourself-content p{
+    font-size: 12px;
+    color: white;
+}
+
+.promote-yourself-content button{
+    background-color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.promote-yourself-image{
+    width: 440px;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+}
+
+.promote-yourself-image img{
+    width: 100%;
+    border-radius: 10px;
+    height: 110%;
+    object-fit: cover;
+}
+
+/* ------------------ */
+/* use conntent <UseConntent> */
+/* ------------------ */
+
+.use-connect{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 20px auto;
+    
+}
+
+.use-connect-content{
+    width: 400px;
+}
+
+.use-connect-content h3{
+    font-size: 22px;
+    color: #14a800;
+    margin-top: 0;
+}
+
+.use-connect-content p{
+    font-size: 12px;
+}
+
+.use-connect-content button{
+    margin-top: 10px;
+    padding: 7px 12px;
+    font-size: 12px;
+    border-radius: 50px;
+    background-color: #14a800;
+    border: none;
+    color: white;
+}
+
+.use-connect-image{
+    width: 260px;
+}
+
+.use-connect-image img{
+    width: 100%;
+}
+/* ----------------- */
+/* Explore <Explore> */
+/* ----------------- */
+
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 40px auto;
+}
+
+.explore-container .title{
+    font-size: 22px;
+    width: 440px;
+}
+.explore-box-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.explore-card{
+    width: 350px;
+}
+
+.explore-card .explore-image{
+    background-color: #dbdee7;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.explore-image img{
+    width: 120px;
+}
+
+.explore-card p{
+    font-size: 12px;
+}
+
+.explore-card button{
+    font-size: 10px;
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.explore-card button:hover{
+    background-color: #bbcfae;
+    transition: all 0.3s ease;
+}
+
+/*------------------- */
+/* Where Excel <WhereExel> */
+/* ------------------- */
+
+.where-excel{
+    display: flex;
+    padding: 15px;
+    background-color: blue;
+    margin: 40px auto;
+    width: 800px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.where-excel-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.where-excel-box h3{
+    margin: 0;
+    color: white;
+    font-size: 22px;
+}
+
+.where-excel-box p{
+    width: 230px;
+    font-size: 12px;
+    color: white;
+}
+
+.where-excel-box button{
+    background-color: transparent;
+    font-size: 12px;
+    color: white;
+    padding: 7px 10px;
+    width: 130px;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.where-excel-box button:hover{
+    transition: all 0.3s ease;
+    background-color: #040494;
+}
+
+.where-excel-image{
+    width: 180px;
+}
+.where-excel-image img{
+    width: 100%;
+}
+
+/* ------------------------- */
+/* media max-width 728px */
+/* -------------------------- */
+
+@media (max-width: 728px){
+    /* ------------------- */
+/* Promote Yourself<PromoteYourSelf> */
+/* ------------------- */
+.promote-container{
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.promote-yourself{
+    display: flex;
+    background-color: #14a800;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: space-between;
+    gap: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+.promote-yourself-content h2{
+    margin-top: 0;
+    font-size: 34px;
+    color: white;
+}
+
+.promote-yourself-content p{
+    font-size: 20px;
+    color: white;
+}
+
+.promote-yourself-content button{
+    background-color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.promote-yourself-image{
+    display: none;
+}
+
+.promote-yourself-image img{
+    width: 100%;
+    border-radius: 10px;
+    height: 110%;
+}
+
+/* ------------------ */
+/* use conntent <UseConntent> */
+/* ------------------ */
+
+.use-connect{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+    
+}
+
+.use-connect-content{
+    max-width: 400px;
+}
+
+.use-connect-content h3{
+    font-size: 32px;
+    color: #14a800;
+    margin-top: 0;
+}
+
+.use-connect-content p{
+    font-size: 20px;
+}
+
+.use-connect-content button{
+    margin-top: 10px;
+    padding: 7px 12px;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: #14a800;
+    border: none;
+    color: white;
+}
+
+.use-connect-image{
+    display: none;
+}
+/* ----------------- */
+/* Explore <Explore> */
+/* ----------------- */
+
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin:  auto;
+    padding: 0 !important;
+}
+
+.explore-container .title{
+    font-size: 32px;
+    width: 90%;
+}
+.explore-box-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.explore-card{
+    width: 90%;
+}
+
+.explore-card .explore-image{
+    background-color: #dbdee7;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.explore-image img{
+    width: 120px;
+}
+
+.explore-card p{
+    font-size: 20px;
+}
+
+.explore-card button{
+    font-size: 18px;
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.explore-card button:hover{
+    background-color: #bbcfae;
+    transition: all 0.3s ease;
+}
+
+/*------------------- */
+/* Where Excel <WhereExel> */
+/* ------------------- */
+
+.where-excel{
+    display: flex;
+    padding: 15px;
+    background-color: blue;
+    margin: 40px auto;
+    width: 90%;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.where-excel-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.where-excel-box h3{
+    margin: 0;
+    color: white;
+    font-size: 32px;
+}
+
+.where-excel-box p{
+    width: 230px;
+    font-size: 20px;
+    color: white;
+}
+
+.where-excel-box button{
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    padding: 7px 10px;
+    width: 180px;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.where-excel-box button:hover{
+    transition: all 0.3s ease;
+    background-color: #040494;
+}
+
+.where-excel-image{
+    display: none;
+}
+
+}

@@ -1,0 +1,56 @@
+.browse-category{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.browse-category h4{
+    font-size: 22px;
+}
+
+.list-browse{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.category-style{
+    font-size: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.category-style p{
+    margin: 0;
+}
+.active-ls{
+    background: black;
+    color: white;
+}
+.unactive-ls{
+    background: white;
+    color: black;
+}
+
+/* ------Design List ------ */
+.design-list-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+}
+.design-list-items li{
+    font-size: 10px;
+    margin: 2px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.design-list-items li:hover{
+    text-decoration: underline;
+}
+
+.design-link-view{
+    color: blue;
+}
+
+/* ------------------------ */

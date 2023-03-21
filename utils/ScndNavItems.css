@@ -1,0 +1,1304 @@
+
+.hero-section{
+    max-width: 888px;
+    margin: 40px auto;
+    display: flex;
+    padding: 10px;
+    background-color: #14a800;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.hero-image {
+    max-width: 400px;
+}
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.hero-cont{
+    max-width: 50%;
+}
+
+.hero-cont h3{
+    margin: 0 auto;
+    font-size: 36px;
+    color: white;
+}
+
+.hero-cont p{
+    font-size: 12px;
+    color: white;
+}
+
+.hero-cont button{
+    font-size: 11px;
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+
+.trusted-by{
+    max-width: 728px ;
+    margin: 20px auto;
+}
+
+
+/* -------------------- */
+/* After Hero Section */
+/* -------------------- */
+
+.after-hero-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 728px;
+    margin: 20px auto;
+}
+
+.after-hero-section h3{
+    font-size: 22px;
+    max-width: 500px;
+}
+
+.after-cards{
+    display: flex;
+    gap: 20px;
+}
+
+.static-card{
+    max-width: 180px;
+}
+.static-card h3{
+    font-size: 22px;
+    margin: 0;
+}
+
+.static-card p{
+    font-size: 11px;
+    color: grey;
+}
+
+.user-cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    justify-content: center;
+    width: 100%;
+}
+
+.user-card{
+    width: 160px;
+    height: 120px;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.user-card h4{
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin-top: 0;
+}
+.user-card p{
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-images{
+    display: flex;
+    position: relative;
+}
+
+.user-image{
+    max-width: 38px;
+    height: 35px;
+    position: absolute;
+    overflow: hidden;
+}
+.user-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+.user-image:nth-child(2){
+    left: 20px;
+    transition: all 0.5s ease;
+}
+
+.user-image:nth-child(3){
+    left: 40px;
+    transition: all 0.5s ease;
+}
+
+.user-card:hover{
+    background-color: skyblue;
+}
+
+.user-card:hover .user-image:nth-child(2)
+{
+    left: calc(+30px);
+    transition: all 0.5s ease;
+}
+
+
+.user-card:hover .user-image:nth-child(3){
+    left: 60px;
+    transition: all 0.5s ease;
+}
+
+.after-hero-link{
+    font-size: 11px;
+} 
+.after-hero-link a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* After-select-section */
+
+.after-select-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 728px;
+    margin: 20px auto;
+}
+.after-select-section h3{
+    margin-bottom: 4px;
+}
+.after-select-section h4{
+    margin-top: 0;
+    height: 36px;
+    color: grey;
+}
+.select-section-content{
+    display: flex;
+}
+.select-section-list{
+    width: 250px;
+}
+
+.select-section-list button{
+    margin-top: 60px;    
+}
+.select-section-list p{
+    font-size: 11px;
+}
+
+.select-image{
+    width: 80%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.select-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.select-list{
+    cursor: pointer;
+    color: grey;
+}
+.select-list:hover{
+    color: blue;
+}
+.select-active{
+    color: black;
+}
+.select-active::before{
+    content: '|';
+    margin-right: 5px;
+}
+
+/* For Development Enterprice */
+
+.dev-enterprice{
+    display: flex;
+    flex-direction: row;
+    max-width: 728px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: #13544e;
+    border-radius: 10px;
+}
+
+.enterprice-desc{
+    max-width: 50%;
+}
+.enterprice-desc p{
+    color: white;
+    font-size: 12px;
+    width: 70%;
+}
+.enterprice-desc h3{
+    font-size: 36px;
+    margin: 5px 0px;
+    color: white;
+}
+
+.enterprice-desc button{
+    font-size: 11px;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
+
+
+.enterprice-image{
+    max-width: 50%;
+    max-height: 100%;
+}
+.enterprice-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* for business card */
+
+.business-card{
+    display: flex;
+    align-items: center;
+    max-width: 888px;
+    margin: 40px auto;
+}
+
+.business-cont{
+    width: 50%;
+    padding: 20px;
+}
+.business-cont h3{
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.business-cont h4{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: grey;
+}
+
+.business-cont p{
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.business-cont span{
+    font-size: 11px;
+    margin: 4px 0px;
+}
+
+.business-budget{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.business-skills{
+    display: flex;
+    gap: 20px;
+}
+.business-image{
+    max-width: 50%;
+}
+
+.business-image img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* ------------------ */
+/* discover */
+/* ------------------ */
+
+
+.discover-container{
+    display: flex;
+    max-width: 888px ;
+    margin: 40px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discover-image{
+    max-width: 50%;
+}
+.discover-image img{
+    width: 100%;
+}
+
+.discover-content{
+    width: 50%;
+}
+
+.discover-content p{
+    font-size: 12px;
+}
+
+.discover-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Talent Opinion */
+.opinion-talent{
+    display: none;
+}
+
+.admin-talent{
+    display: flex;
+    flex-direction: column;
+    max-width: 728px;
+    margin: 40px auto;
+}
+.talents-cards-opinion{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card-opinion{
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.opinion-image img{
+    width: 70px;
+}
+.card-opinion h4{
+    margin: 0;
+}
+.rate-image{
+    display: flex;
+}
+.rate-image p{
+    font-size: 8px;
+}
+.card-opinion h5{
+    margin: 0;
+}
+.card-opinion p{
+    max-width: 320px;
+}
+
+.extention-card{
+    display: flex;
+    justify-content: space-between;
+    border: 0.01em solid grey;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ext-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ext-cont h3{
+    max-width: 300px;
+    margin: 0;
+}
+.ext-cont a{
+    font-size: 12px;
+    text-decoration: underline;
+    color: blue;
+}
+.ext-img{
+    max-width: 180px;
+}
+.ext-img img{
+    width: 100%;
+}
+
+/* Question */
+
+.question-nav{
+    display: flex;
+    max-width: 728px;
+    margin:  auto;
+    justify-content: space-between;
+}
+.title-question{
+    max-width: 350px;
+}
+.content-question{
+    max-width: 350px;
+}
+
+.question-prgr h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.question-prgr p{
+    font-size: 11px;
+}
+.question-prgr li{
+    font-size: 11px;
+    padding: 5px 0;
+}
+.content-question p{
+    font-size: 11px;
+    height: 45px;
+}
+.content-question a{
+    font-size: 11px;
+    color: blue;
+}
+
+.card-quest{
+    border-bottom: 1px solid grey;
+}
+
+.quest-unactive{
+    transform: translateY(-100%);
+    overflow: hidden;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.quest-active{
+    transform:  translateY(1);
+    opacity: 1;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.btn-view{
+    cursor: pointer;
+}
+
+
+
+/* Find freelancer */
+
+.free-lancer{
+    display: flex;
+    flex-direction: column;
+    max-width: 728px;
+    margin: auto;
+}
+
+.free-lancer ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    font-size: 11px;
+    padding: 0;
+}
+
+.free-lancer ul li{
+    padding: 4px 0px;
+    color: grey;
+}
+
+.free-lancer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+/* ---------------------- */
+/* Design & Creative */
+/* ---------------------- */
+
+.design-enterprice{
+    display: flex;
+    flex-direction: row;
+    max-width: 728px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: #fccd81;
+    border-radius: 10px;
+}
+
+.design-enterprice
+.enterprice-desc p{
+    color: black;
+    font-size: 12px;
+    width: 70%;
+}
+
+.design-enterprice
+.enterprice-desc h3{
+    font-size: 36px;
+    margin: 5px 0px;
+    color: black;
+}
+
+.design-enterprice
+.enterprice-desc button{
+    font-size: 11px;
+    padding: 7px 12px;
+    border: none;
+    color: #fccd81;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.design-discover{
+    display: none;
+}
+
+/* --------------- */
+/* Sales & Marketing */
+/* --------------- */
+
+
+.sales-enterprice{
+    display: flex;
+    flex-direction: row;
+    max-width: 728px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+
+/* ----------------- */
+/* Writers & Translation */
+/* ----------------- */
+
+.writer-enterprice{
+    display: none;
+}
+
+/* ------------------- */
+/* Admin & Customer */
+/* ------------------- */
+
+.hero-admin{
+    max-width: 888px;
+    margin: 40px auto;
+    display: flex;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.admin-enterprice{
+    display: flex;
+    flex-direction: row;
+    max-width: 728px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: #4a3328;
+    border-radius: 10px;
+}
+.free-lancer a{
+    font-size: 12px;
+    color: blue;
+    cursor: pointer;
+}
+/* --------------------------- */
+/* Media 728px  */
+/* ---------------------------- */
+
+@media (max-width: 728px){
+    
+.section-ScnNav{
+    width: 90%;
+    margin: auto;
+}
+.hero-section{
+    max-width: 100%;
+    margin: 40px auto;
+    display: flex;
+    padding: 10px;
+    background-color: #14a800;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.hero-image {
+    max-width: 400px;
+    display: none;
+}
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.hero-cont{
+    max-width: 100%;
+}
+
+.hero-cont h3{
+    margin: 0 auto;
+    font-size: 36px;
+    color: white;
+}
+
+.hero-cont p{
+    font-size: 20px;
+    color: white;
+}
+
+.hero-cont button{
+    font-size: 16px;
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+
+.trusted-by{
+    max-width: 728px ;
+    margin: 20px auto;
+}
+
+
+/* -------------------- */
+/* After Hero Section */
+/* -------------------- */
+
+.after-hero-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 728px;
+    margin: 20px auto;
+}
+
+.after-hero-section h3{
+    font-size: 36px;
+    max-width: 500px;
+}
+
+.after-cards{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.static-card{
+    max-width: 100%;
+}
+.static-card h3{
+    font-size: 32px;
+    margin: 0;
+}
+
+.static-card p{
+    font-size: 20px;
+    color: grey;
+}
+
+.user-cards{
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 5px;
+    gap: 20px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.user-card{
+    width: 200px !important;
+    height: 120px;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.user-card h4{
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    height: 60px;
+    width: 200px;
+}
+.user-card p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-images{
+    display: flex;
+    position: relative;
+}
+
+.user-image{
+    max-width: 50px;
+    height: 45px;
+    position: absolute;
+    overflow: hidden;
+}
+.user-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+.user-image:nth-child(2){
+    left: 30px;
+    transition: all 0.5s ease;
+}
+
+.user-image:nth-child(3){
+    left: 60px;
+    transition: all 0.5s ease;
+}
+
+.user-card:hover{
+    background-color: skyblue;
+}
+
+.user-card:hover .user-image:nth-child(2)
+{
+    left: calc(+30px);
+    transition: all 0.5s ease;
+}
+
+
+.user-card:hover .user-image:nth-child(3){
+    left: 60px;
+    transition: all 0.5s ease;
+}
+
+.after-hero-link{
+    font-size: 20px;
+} 
+.after-hero-link a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* After-select-section */
+
+.after-select-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 728px;
+    margin: 20px auto;
+}
+.after-select-section h3{
+    margin-bottom: 4px;
+    font-size: 36px;
+}
+.after-select-section h4{
+    margin-top: 0;
+    height: 100%;
+    color: grey;
+    font-size: 26px;
+}
+.select-section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.select-section-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.select-section-list p{
+    font-size: 20px !important;
+}
+.select-section-list-mb{
+    width: 90%;
+    padding: 5px;
+    font-size: 20px;
+    margin: 40px 0;
+}
+.select-section-list button{
+    margin-top: 60px;    
+}
+.select-section-list p{
+    font-size: 16px;
+}
+.select-section-content .btn-hire{
+    width: 150px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.select-image{
+    width: 80%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.select-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.select-list{
+    cursor: pointer;
+    color: grey;
+}
+.select-list:hover{
+    color: blue;
+}
+.select-active{
+    color: black;
+}
+.select-active::before{
+    content: '|';
+    margin-right: 5px;
+}
+
+/* For Development Enterprice */
+
+.dev-enterprice{
+    display: flex;
+    flex-direction: row;
+    max-width: 728px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: #13544e;
+    border-radius: 10px;
+}
+
+.enterprice-desc{
+    max-width: 100%;
+}
+.enterprice-desc p{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+.enterprice-desc h3{
+    font-size: 36px;
+    margin: 5px 0px;
+    color: white;
+}
+
+.enterprice-desc button{
+    font-size: 18px;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
+
+
+.enterprice-image{
+    display: none;
+    max-width: 50%;
+    max-height: 100%;
+}
+.enterprice-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* for business card */
+
+.business-card{
+    display: flex;
+    align-items: center;
+    max-width: 888px;
+    margin: 40px auto;
+    flex-direction: column;
+}
+
+.business-cont{
+    width: 100%;
+    padding: 20px;
+}
+.business-cont h3{
+    font-size: 36px;
+    margin-bottom: 4px;
+}
+
+.business-cont h4{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: grey;
+}
+
+.business-cont p{
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+.business-star{
+    font-size: 20px !important;
+}
+.business-cont span{
+    font-size: 20px;
+    margin: 4px 0px;
+}
+
+.business-cont .bsn-prgr{
+    font-size: 18px;
+    color: grey;
+}
+
+.business-budget{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.business-skills{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.business-skills p{
+    font-size: 20px;
+}
+.business-image{
+    max-width: 100%;
+}
+
+.business-image img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* ------------------ */
+/* discover */
+/* ------------------ */
+
+
+.discover-container{
+    display: flex;
+    max-width: 100% ;
+    margin: 40px auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.discover-image{
+    max-width: 100%;
+}
+.discover-image img{
+    width: 100%;
+}
+
+.discover-content{
+    width: 100%;
+    padding-left: 0;
+}
+
+.discover-content p{
+    font-size: 20px;
+    color: grey;
+}
+
+.discover-button{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.discover-button p{
+    font-size: 20px;
+}
+.discover-button .btn-hire{
+    font-size: 18px;
+}
+
+/* Talent Opinion */
+.opinion-talent{
+    display: none;
+}
+
+.admin-talent{
+    display: flex;
+    flex-direction: column;
+    max-width: 728px;
+    margin: 40px auto;
+}
+.admin-talent h3{
+    font-size: 36px;
+}
+.talents-cards-opinion{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card-opinion{
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.opinion-image img{
+    width: 100px;
+}
+.card-opinion h4{
+    margin: 0;
+    font-size: 30px;
+}
+.rate-image{
+    display: flex;
+    gap: 5px;
+}
+.rate-image img{
+    width: 20px;
+}
+.rate-image p{
+    font-size: 20px;
+}
+.card-opinion h5{
+    margin: 0;
+    font-size: 20px;
+}
+.card-opinion p{
+    font-size: 20px;
+    max-width: auto;
+}
+
+.extention-card{
+    display: flex;
+    justify-content: space-between;
+    border: 0.01em solid grey;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ext-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ext-cont h3{
+    max-width: 100%;
+    margin: 0;
+    font-size: 26px;
+}
+.ext-cont a{
+    font-size: 20px;
+    text-decoration: underline;
+    color: blue;
+}
+.ext-img{
+    display: none;
+    max-width: 180px;
+}
+.ext-img img{
+    width: 100%;
+}
+
+/* Question */
+
+.question-nav{
+    display: flex;
+    max-width: 728px;
+    margin:  auto;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.title-question{
+    max-width: 350px;
+    font-size: 36px;
+}
+.content-question{
+    max-width: 100%;
+}
+
+.question-prgr h4{
+    margin-bottom: 5px;
+}
+.question-prgr p{
+    font-size: 20px !important;
+    height: 100% !important;
+}
+.question-prgr li{
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.content-question p{
+    font-size: 18px;
+    height: 45px;
+}
+.content-question a{
+    font-size: 18px;
+    color: blue;
+}
+
+.card-quest{
+    border-bottom: 1px solid grey;
+}
+.card-quest h4{
+    font-size: 20px;
+}
+.card-quest p{
+    font-size: 18px;
+}
+
+.quest-unactive{
+    transform: translateY(-100%);
+    overflow: hidden;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.quest-active{
+    transform:  translateY(1);
+    opacity: 1;
+    overflow: hidden;
+    transition: all 1s ease;
+    height: 100%;
+}
+
+.btn-view{
+    cursor: pointer;
+}
+
+
+
+/* Find freelancer */
+
+.free-lancer{
+    display: flex;
+    flex-direction: column;
+    max-width: 728px;
+    margin: auto;
+}
+.free-lancer h3{
+    font-size: 36px;
+}
+.free-lancer h4{
+    font-size: 26px;
+}
+
+.free-lancer ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+}
+
+.free-lancer ul li{
+    padding: 4px 0px;
+    color: grey;
+    margin: 5px 0;
+}
+
+.free-lancer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.free-lancer a{
+    display: flex;
+    font-size: 18px;
+    color: blue;
+}
+
+
+/* ---------------------- */
+/* Design & Creative */
+/* ---------------------- */
+
+.design-enterprice{
+    display: flex;
+    flex-direction: row;
+    max-width: 728px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: #fccd81;
+    border-radius: 10px;
+}
+
+.design-enterprice
+.enterprice-desc p{
+    color: black;
+    font-size: 12px;
+    width: 70%;
+}
+
+.design-enterprice
+.enterprice-desc h3{
+    font-size: 36px;
+    margin: 5px 0px;
+    color: black;
+}
+
+.design-enterprice
+.enterprice-desc button{
+    font-size: 11px;
+    padding: 7px 12px;
+    border: none;
+    color: #fccd81;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.design-discover{
+    display: none;
+}
+
+/* --------------- */
+/* Sales & Marketing */
+/* --------------- */
+
+
+.sales-enterprice{
+    display: flex;
+    flex-direction: row;
+    max-width: 728px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+
+/* ----------------- */
+/* Writers & Translation */
+/* ----------------- */
+
+.writer-enterprice{
+    display: none;
+}
+
+/* ------------------- */
+/* Admin & Customer */
+/* ------------------- */
+
+.hero-admin{
+    max-width: 888px;
+    margin: 40px auto;
+    display: flex;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.admin-enterprice{
+    display: flex;
+    flex-direction: row;
+    max-width: 728px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: #4a3328;
+    border-radius: 10px;
+}   
+}

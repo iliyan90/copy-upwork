@@ -1,0 +1,870 @@
+/* Review upwork <ReviewUpwork> */
+.reviews-section{
+    margin: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+.reviews-upwork{
+    display: flex;
+    width: 888px;
+    margin: 40px auto;
+    gap: 10px;
+}
+
+.reviews-upwork-cont{
+    width: 50%;
+}
+
+.reviews-upwork-cont h2{
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #14a800;
+}
+
+.reviews-upwork-cont p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.reviews-upwork-image{
+    width: min((100% - 15px), 400px);
+}
+
+.reviews-upwork-image img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+/* --------------------- */
+/* Client Rating <ClientRating> */
+/* --------------------- */
+
+.client-rating{
+    width: 728px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+.client-rating h3{
+    font-size: 26px;
+    font-weight: 100;
+    width: 500px;
+}
+
+.client-rating-cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.client-rating-cont p{
+    font-size: 12px;
+}
+.client-rating-cont span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.client-rating-star{
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------- */
+/* What Saying <WhatSaying> */
+/* ------------------- */
+
+*{
+    scroll-behavior: smooth;
+}
+.what-saying{
+    display: flex;
+    width: 728px;
+    margin: 40px auto;
+}
+
+.what-saying-list{
+    position: relative;
+    width: 300px;    
+}
+.what-saying-list-item {
+    position: sticky;
+    top: 100px;
+    left: 0;
+    height: 250px;
+}
+.what-saying-item{
+    font-size: 11px;
+    color: grey;
+    cursor: pointer;
+}
+
+.what-active{
+    color: black !important;
+}
+
+.what-unactive:hover{
+    color: blue !important;
+}
+
+.what-saying-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 650px;
+}
+
+.what-saying-card{
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.what-saying-card p{
+    font-size: 12px;
+}
+.what-saying-mind{
+    margin-top: 0;
+}
+.what-saying-card span{
+    font-size: 12px;
+    color: grey;
+}
+
+.what-saying-card .name-country{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.what-saying-category{
+    padding-left: 20px;
+    font-size: 10px !important;
+}
+
+/* ------------------- */
+/* Business <Business> */
+/* ------------------- */
+
+.business-container{
+    display: flex;
+    flex-direction: column;
+    width: 728px;
+    margin: 40px auto;
+}
+
+.business-video{
+    display: flex;
+}
+.business-desc{
+    padding: 10px;
+    display: flex;
+}
+.business-desc-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.business-desc-item h3{
+    font-size: 16px;
+    width: 150px;
+    margin: 0;
+}
+
+
+.business-desc-item a{
+    font-size: 12px ;
+    color: blue;
+}
+
+.business-container .btn-hire{
+    width: 180px;
+    margin-top: 20px;
+}
+
+.business-video-iframe{
+    width: 100%;
+}
+.business-video-iframe iframe{
+    width: 100%;
+}
+
+/* -------------------- */
+/* Explore <Explore> */
+/* -------------------- */
+
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    width: 728px;
+    margin: 40px auto;
+}
+
+.explore-list ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.explore-list ul{
+    padding: 0;
+}
+
+.explore-list ul li{
+    font-size: 11px;
+    list-style: none;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.explore-list ul li:hover{
+    color: blue;
+}
+
+.read-reviews-cards{
+    display: flex;
+    gap: 20px;
+    padding-left: 15px;
+}
+
+.read-card{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.read-card:hover{
+    background-color: rgb(196, 230, 243);
+}
+
+.read-card h3{
+    font-size: 16px;
+}
+.read-card a{
+    font-size: 11px;
+}
+
+/* ------------------ */
+/* How to start <HowToStart> */
+/* ------------------ */
+
+.how-to-start{
+    display: flex;
+    flex-direction: column;
+    width: 728px;
+    margin: 40px auto;
+}
+
+.how-to-start-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.start-menu{
+    font-size: 12px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.start-menu:hover{
+    color: blue;
+    border-bottom: 1px solid #14a800;
+}
+
+.start-active{
+    border-bottom: 1px solid black;
+}
+
+.start-unactive{
+    border: none;
+}
+
+.start-cards{
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;
+    padding-left: 15px;
+}
+
+.start-card{
+    background-color: #EAE9DE;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.start-card-image{
+    width: 140px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+    overflow: hidden;
+}
+.start-card-image img{
+    width: 80px;
+}
+
+
+.start-card-desc{
+    width: 140px;
+}
+.start-card-desc p{
+    font-size: 11px;
+    margin: 10px 0px 5px;
+}
+.start-card-desc p:last-child{
+    color: grey;
+    margin: 0;
+}
+
+.how-to-start .btn-hire{
+    width: 100px;
+}
+
+/* -------------------- */
+/* Build <Build> */
+/* -------------------- */
+
+.build-container{
+    width: 728px;
+    display: flex;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.build-image{
+    width: 30%;
+}
+
+.build-image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.build-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.build-content h3{
+    margin: 0;
+    color: white;
+    font-size: 22px;
+}
+
+.build-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.build-desc p{
+    font-size: 12px;
+    color: white;
+    margin: 0;
+}
+
+.build-desc button{
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+}
+
+.explore-list-mb{
+    display: none;
+}
+/* ----------------------- */
+/* Media 728px */
+/* ----------------------- */
+
+
+@media (max-width: 728px){
+/* Review upwork <ReviewUpwork> */
+
+.reviews-upwork{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    gap: 10px;
+    overflow-x: hidden;
+}
+
+.reviews-upwork-cont{
+    width: 100%;
+    padding: 15px;
+}
+
+.reviews-upwork-cont h2{
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #14a800;
+}
+
+.reviews-upwork-cont p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.reviews-upwork-cont .btn-hire{
+    font-size: 18px;
+}
+
+.reviews-upwork-image{
+    display: none;
+    width: min((100% - 15px), 400px);
+}
+
+.reviews-upwork-image img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+/* --------------------- */
+/* Client Rating <ClientRating> */
+/* --------------------- */
+
+.client-rating{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.client-rating h3{
+    font-size: 36px;
+    font-weight: 800;
+    width: 100%;
+}
+
+.client-rating-cont{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.client-rating-card{
+    width: 100%;
+}
+.client-rating-cont p{
+    font-size: 22px;
+}
+.client-rating-cont span{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.client-rating-star{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ------------------- */
+/* What Saying <WhatSaying> */
+/* ------------------- */
+
+*{
+    scroll-behavior: smooth;
+}
+.what-saying{
+    display: flex;
+    width: 100%;
+    margin: 40px auto;
+    position: relative;
+    flex-direction: column;
+}
+
+.what-saying-list{
+    width: 100%; 
+    height: 120px; 
+    overflow-x: auto !important;
+    padding: 15px;
+    position: relative;
+    
+}
+.what-saying-list h3{
+    position: absolute;
+    top: 0px;
+    font-size: 32px;
+
+}
+
+.what-saying-list-item {
+    position: sticky !important;
+    top: 100px;
+    left: 0;
+    background-color: #14a800;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 15px;
+    width: 100px;
+    height: 240px !important;
+    white-space: nowrap;
+    scroll-behavior: smooth; 
+    overflow: scroll !important; 
+}
+
+.what-saying-list-item p{
+    width: auto;
+    font-size: 18px;
+}
+.what-saying-item{
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+}
+
+.what-active{
+    color: black !important;
+}
+
+.what-unactive:hover{
+    color: blue !important;
+}
+
+.what-saying-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+.what-saying-card{
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 20px;
+}
+.what-saying-card h3{
+    font-size: 27px;
+}
+.what-saying-card p{
+    font-size: 18px;
+}
+.what-saying-mind{
+    margin-top: 0;
+}
+.what-saying-card span{
+    font-size: 18px;
+    color: grey;
+}
+
+.what-saying-card .name-country{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.what-saying-cards .btn-hire{
+    font-size: 18px;
+}
+
+.what-saying-category{
+    padding-left: 20px;
+    font-size: 16px !important;
+}
+
+/* ------------------- */
+/* Business <Business> */
+/* ------------------- */
+
+.business-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px auto;
+    padding: 15px;
+}
+.business-container h3{
+    font-size: 36px;
+}
+.business-video{
+    display: flex;
+    flex-direction: column;
+}
+.business-desc{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.business-desc-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.business-desc-item h3{
+    font-size: 26px;
+    margin: 20px 0px;
+    width: auto;
+}
+
+
+.business-desc-item a{
+    font-size: 12px ;
+    color: blue;
+}
+
+.business-container .btn-hire{
+    width: 260px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.business-video-iframe{
+    width: 100%;
+}
+.business-video-iframe iframe{
+    width: 100%;
+}
+
+/* -------------------- */
+/* Explore <Explore> */
+/* -------------------- */
+
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px auto;
+    padding: 15px;
+}
+.explore-container h3{
+    font-size: 36px;
+}
+
+.explore-list-mb{
+    display: flex;
+}
+.explore-list-mb ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    max-height: 120px;
+}
+.explore-list-collapsed{
+    display: flex;
+}
+.explore-list-collapsed ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    transition: max-height 1s ease-in-out;
+    max-height: 1000px;
+}
+
+
+.explore-list-mb ul li{
+    color: grey;
+}
+
+.explore-list-mb a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.explore-list ul{
+    display: none;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.read-reviews-cards{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.read-card{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #f2f7f2;
+}
+.read-card:hover{
+    background-color: rgb(196, 230, 243);
+}
+
+.read-card h3{
+    font-size: 26px;
+}
+.read-card a{
+    font-size: 21px;
+}
+
+/* ------------------ */
+/* How to start <HowToStart> */
+/* ------------------ */
+
+.how-to-start{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 40px auto;
+    padding: 15px;
+}
+.how-to-start h3{
+    font-size: 32px;
+}
+.how-to-start .btn-hire{
+    font-size: 18px;
+    width: 150px !important;
+}
+
+.how-to-start-menu{
+    display: flex;
+    gap: 20px;
+}
+.how-to-start-menu > div{
+    font-size: 22px;
+}
+.start-menu{
+    font-size: 12px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.start-menu:hover{
+    color: blue;
+    border-bottom: 1px solid #14a800;
+}
+
+.start-active{
+    border-bottom: 1px solid black;
+}
+
+.start-unactive{
+    border: none;
+}
+
+.start-cards{
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+}
+
+.start-card{
+    background-color: #EAE9DE;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.start-card-image{
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+    overflow: hidden;
+}
+.start-card-image img{
+    width: 100px;
+}
+
+
+.start-card-desc{
+    width: 90%;
+    margin: auto;
+}
+.start-card-desc p{
+    font-size: 21px;
+    margin: 10px 0px 5px;
+}
+.start-card-desc p:last-child{
+    color: grey;
+    margin: 0;
+}
+
+.how-to-start .btn-hire{
+    width: 100px;
+}
+
+/* -------------------- */
+/* Build <Build> */
+/* -------------------- */
+
+.build-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.build-image{
+    width: 100%;
+}
+
+.build-image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.build-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.build-content .h-line{
+    display: none;
+}
+.build-content h3{
+    margin: 0;
+    color: white;
+    font-size: 32px;
+}
+
+.build-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.build-desc p{
+    font-size: 18px;
+    color: white;
+    margin: 10px 0px;
+    width: 200px;
+}
+
+.build-desc button{
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 50px;
+    border-color: white;
+    color: white;
+    margin: 20px 0px;
+}
+}

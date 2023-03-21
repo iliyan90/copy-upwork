@@ -1,0 +1,24 @@
+.approval-trusted{
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    flex-wrap: wrap;
+    color: grey;
+    gap: 40px;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.approval-trusted img{
+    width: 80px;
+}
+
+@media (max-width: 728px){
+    .approval-trusted{
+        font-size: 20px;
+        gap: 20px;
+    }
+    .approval-trusted img{
+        width: 60px;
+    }
+}

@@ -1,0 +1,503 @@
+.hire-props{
+    box-sizing: border-box;
+    width: 728px;
+    margin: auto;
+    
+}
+
+.hire-title{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 728px;
+    margin: 20px auto;
+}
+
+.hire-title-card{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.hire-title-card h2{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+.hire-title-card p{
+    color: grey;
+}
+.hire-title-card a{
+    color: #14a800;
+    cursor: pointer;
+}
+.hire-title-card a:hover{
+    text-decoration: underline;
+}
+
+.hire-input{
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.hire-input input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.hire-input button{
+    font-size: 18px;
+    background-color: #14a800;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 4px 5px;
+    position: absolute;
+    left: 290px;
+    cursor: pointer;
+}
+.hire-input button:hover{
+    background-color: #48a83c;
+}
+
+.hire-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hire-card{
+    border: 1px solid grey;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+
+.hire-card-img{
+    width: 100px;
+}
+.hire-card-img img{
+    width: 100%;
+}
+.hire-card h3,
+.hire-card p{
+    margin: 0;
+}
+.hire-card p{
+    margin-top: 10px;
+}
+.hire-card span{
+    color: grey;
+    font-size: 14px;
+}
+/* ------------------ */
+/* Safe <Safe> */
+/* ------------------ */
+
+.safe-comp{
+    width: 100%;
+    margin: auto;
+}
+
+.safe-comp-items{
+    display: flex;
+    gap: 10px;
+}
+.safe-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.safe-item p{
+    margin: 0;
+}
+.safe-item span{
+    color: grey;
+}
+
+/* -------------------- */
+/* Category <Category> */
+/* -------------------- */
+
+.category-container{
+    width: 100%;
+    margin: 40px auto;
+}
+.category-buttons{
+    margin: 20px 0;
+}
+.btn-category{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.category-active{
+    background-color: black;
+    color: white;
+}
+.category-content{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+.category-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px 0;
+    width: 100%;
+}
+.category-list P{
+    margin: 2px 0;
+    font-size: 13px;
+    color: grey;
+    cursor: pointer;
+}
+.category-list p:hover{
+    text-decoration: underline;
+    color: #14a800;
+}
+
+.category-items h3{
+    cursor: pointer;
+}
+.category-item-title{
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ioArrowDown{
+    transform: rotate(180deg);   
+}
+.btn-category-parg{
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 5px;
+    border-color: #14a800;
+    color: #14a800;
+}
+.content-unactive{
+    display: none;
+}
+.content-active{
+    display: flex;
+}
+
+/* ----------------- */
+/* Recruiters <Recruiters> */
+/* ------------------ */
+
+.recruiters-sector{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: #d5e0d5;
+    padding: 10px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.recruiters-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.recruiters-title h3{
+    font-size: 26px;
+    width: 400px;
+}
+.recruiters-buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.recruiters-buttons button{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.recruiters-image{
+    width: 250px;
+}
+.recruiters-image img{
+    width: 100%;
+}
+
+/* ---------------------- */
+/* Media width 728px */
+/* ---------------------- */
+
+@media (max-width: 728px){
+    .hire-props{
+        box-sizing: border-box;
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+        padding: 0 5px;
+    }
+    
+    .hire-title{
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        width: 728px;
+        margin: 20px auto;
+    }
+    
+    .hire-title-card{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    .hire-title-card h2{
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    .hire-title-card p{
+        color: grey;
+        font-size: 20px;
+    }
+    .hire-title-card a{
+        color: #14a800;
+        cursor: pointer;
+    }
+    .hire-title-card a:hover{
+        text-decoration: underline;
+    }
+    
+    .hire-input{
+        position: relative;
+        width: auto;
+        display: flex;
+        align-items: center;
+    }
+    .hire-input input{
+        width: 300px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+    .hire-input button{
+        font-size: 18px;
+        background-color: #14a800;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 4px 5px;
+        position: absolute;
+        left: 290px;
+        cursor: pointer;
+    }
+    .hire-input button:hover{
+        background-color: #48a83c;
+    }
+    
+    .hire-cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    
+    .hire-card{
+        border: 1px solid grey;
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    
+    .hire-card-img{
+        width: 100px;
+    }
+    .hire-card-img img{
+        width: 100%;
+    }
+    .hire-card h3,
+    .hire-card p{
+        margin: 0;
+    }
+    .hire-card p{
+        margin-top: 10px;
+    }
+    .hire-card span{
+        color: grey;
+        font-size: 14px;
+    }
+    /* ------------------ */
+    /* Safe <Safe> */
+    /* ------------------ */
+    
+    .safe-comp{
+        width: 100%;
+        margin: auto;
+    }
+    .safe-comp h2{
+        font-size: 32px;
+    }
+    
+    .safe-comp-items{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .safe-item{
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .safe-item p{
+        margin: 0;
+        font-size: 20px;
+    }
+    .safe-item span{
+        color: grey;
+        font-size: 20px;
+    }
+    
+    /* -------------------- */
+    /* Category <Category> */
+    /* -------------------- */
+    
+    .category-container{
+        width: 100%;
+        margin: 40px auto;
+    }
+    .category-container h2{
+        font-size: 32px;
+    }
+    .category-buttons{
+        margin: 20px 0;
+    }
+    .category-buttons p{
+        font-size: 20px;
+    }
+    .btn-category{
+        padding: 5px 10px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .category-active{
+        background-color: black;
+        color: white;
+    }
+    .category-content{
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .category-content p{
+        font-size: 20px;
+    }
+    .category-content span{
+        font-size: 20px;
+    }
+    .category-list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 0;
+        width: 100%;
+    }
+    .category-list P{
+        margin: 5px 0;
+        font-size: 16px;
+        color: grey;
+        cursor: pointer;
+    }
+    .category-list p:hover{
+        text-decoration: underline;
+        color: #14a800;
+    }
+    
+    .category-items h3{
+        cursor: pointer;
+        font-size: 26px;
+    }
+    .category-item-title{
+        border-top: 1px solid grey;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .ioArrowDown{
+        transform: rotate(180deg);   
+    }
+    .btn-category-parg{
+        border-radius: 50px;
+        font-size: 16px;
+        padding: 5px;
+        border-color: #14a800;
+        color: #14a800;
+    }
+    .content-unactive{
+        display: none;
+    }
+    .content-active{
+        display: flex;
+    }
+    
+    /* ----------------- */
+    /* Recruiters <Recruiters> */
+    /* ------------------ */
+    
+    .recruiters-sector{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        background-color: #d5e0d5;
+        padding: 10px;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        border-radius: 10px;
+    }
+    .recruiters-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .recruiters-title h3{
+        font-size: 26px;
+        width: 200px;
+    }
+    .recruiters-buttons{
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .recruiters-buttons button{
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    
+    .recruiters-image{
+        width: auto;
+        display: flex;
+        align-items: flex-end;
+    }
+    .recruiters-image img{
+        width: 100%;
+    }   
+}

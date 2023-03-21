@@ -1,0 +1,403 @@
+.scout-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    height: 100%;
+}
+
+.partner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.partner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    width: 350px;
+    height: 100%;
+}
+
+.partner-box h3{
+    color: #14a800;
+    font-size: 33px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.partner-box p{
+    font-size: 12px;
+}
+
+.partner-group{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.btn-scout-talent{
+    background-color: #14a800;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.partner-group a{
+    font-size: 12px;
+    color: blue;
+}
+
+.partner-image{
+    width: 54%;
+    height: 100%;
+}
+
+.partner-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+/* How talent scout work */
+
+.how-talent-work{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.how-talent-work p{
+    font-size: 12px;
+    color: grey;
+}
+
+.talent-work-list{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.talent-work-list{
+    padding-left: 0;
+}
+.talent-work-list li{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.talent-work-list h5{
+    margin: 0px 5px 0px 0px;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    padding: 2px 5px;
+    color: white;
+    height: 15px;
+}
+
+.talent-scout-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.talent-work-list h6{
+    font-size: 10px;
+    margin: 0;
+}
+.talent-work-list p{
+    font-size: 10px;
+    color: grey;
+    margin: 5px 0px;
+}
+
+/* ScoutRecruiter */
+
+.scout-recruiters{
+    display: flex;
+    width: 100%;
+    gap: 60px;
+    margin-top: 40px;
+    align-items: center;
+}
+.scout-recruiter-image{
+    width: 80%;
+    height: 100%;
+}
+
+.scout-recruiter-image img{
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.scout-recruiters-desc{
+    width: 50%;
+    padding: 40px;
+}
+
+.scout-recruiters-desc h3{
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.scout-recruiters-cont{
+    margin-bottom: 10px;
+}
+
+.scout-recruiters-desc h6{
+    font-size: 14px;
+    margin: 0;
+}
+
+.scout-recruiters-cont p{
+    font-size: 12px;
+    margin: 0;
+}
+
+/* Leading Brand  */
+
+.leading-brand{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.leading-brand h3{
+    margin: 0;
+    font-size: 22px;
+}
+
+.leading-brand p{
+    margin: 10px 0px;
+    font-size: 12px;
+}
+
+.leading-brand-images{
+    display: flex;
+    gap: 60px;
+    width: 65px;
+    height: 25px;
+}
+
+.leading-brand-images img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Screened Talent */
+
+.screened-talent{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.screened-talent h3{
+    font-size: 22px;
+    width: 400px;
+}
+
+.screened-component{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.screened-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f4f5f2;
+}
+
+.screened-card:hover{
+    background-color: #dfdfdf;
+}
+.screened-card p{
+    font-size: 15px;
+    font-weight: bold
+}
+.screened-card img{
+    width: 100px;
+}
+
+/* Location and industries */
+
+.locations-industries{
+    display: flex;
+    flex-direction: row;
+}
+.locations-industries-titles{
+    width: 500px;
+}
+.locations-industries-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    list-style-type: none;
+    grid-column-gap: 20px;
+}
+
+.locations-industries-list li{
+    height: 15px; 
+}
+
+.locations-industries-list p{
+    font-size: 12px;
+}
+
+/* Frequency */
+
+.frequently-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.frequently-container h3{
+    width: 400px;
+}
+
+.frequently-list{
+    width: 50%;
+    transition: all 0.5s ease;
+}
+
+.frequently-items{
+    border-bottom: 1px solid #dfdfdf;
+    width: 450px;
+}
+
+.frequently-items h3{
+    font-size: 18px;
+    letter-spacing: 0.01em;
+}
+.frequently-items p{
+    font-size: 12px;
+    color: grey;
+}
+
+@keyframes slide-down {
+    from{
+        max-height: 0;
+        transform: scaleY(0);
+    }
+    to{
+        max-height: 100%;
+        transform: scaleY(1);
+    }
+}
+
+
+
+.fr-ls-hidden{
+    visibility: hidden;
+    max-height: 0;
+    opacity: 1;
+}
+
+.fr-ls-show{
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    animation: slide-down 1s ;
+    animation-iteration-count: 1;
+}
+
+.frequently-hidden p{
+    font-size: 12px;
+    color: grey;
+    margin: 40px 0;
+    width: 450px;
+}
+
+.frequently-hidden a{
+    font-size: 12px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Short list <ShortList> */
+
+.short-list-container{
+    display: flex;
+    align-items: flex-start;
+    width: 85%;
+    margin: 40px auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: royalblue;
+}
+
+.short-list-image{
+    width: 400px;
+    height: 160px;
+    padding: 10px;
+}
+.short-list-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.short-list-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+
+}
+.short-h-line{
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-top: 50px;
+}
+.short-list-content h3{
+    margin: 0;
+    width: 320px;
+    color: white;
+}
+
+.short-list-content p{
+    font-size: 12px;
+    width: 380px;
+    color: white;
+}
+.short-list-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.btn-short-list{
+    font-size: 10px;
+    padding: 4px 15px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-short-list:hover{
+    background-color: rgb(196, 224, 215);
+    transition: all 0.3s ease;
+}
