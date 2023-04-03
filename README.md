@@ -1,2 +1,3 @@
-# copy-upwork
-Copy of platform freelancer
+# demo-upwork
+Demo copy of freelancer platform
+site : https://demo-upwork.netlify.app
